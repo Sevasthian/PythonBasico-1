@@ -1,0 +1,11 @@
+nombre = input("ingrese su nombre: ")
+edad = input("ingrese su edad: ")
+altura = input("ingrese su altura: ")
+ciudad = input("ingrese su ciudad: ")
+direccion = input("ingrese su direccion: ")
+pais = input("ingrese su pais: ")
+estudio = input("ingrese sus nivel de educación: ")
+lavoral = input("ingrese su experiencia lavoral: ")
+usuario = tuple((nombre, edad, altura, ciudad, direccion, pais, estudio, lavoral))
+print(f"""la informacion sobre el usurio es:{usuario[0]}""")
+
